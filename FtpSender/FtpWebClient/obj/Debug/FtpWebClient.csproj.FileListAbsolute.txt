@@ -1,0 +1,4 @@
+C:\LocalProjects\TestNetCode\FtpSender\FtpWebClient\bin\Debug\FtpWebClient.dll
+C:\LocalProjects\TestNetCode\FtpSender\FtpWebClient\bin\Debug\FtpWebClient.pdb
+C:\LocalProjects\TestNetCode\FtpSender\FtpWebClient\obj\Debug\FtpWebClient.dll
+C:\LocalProjects\TestNetCode\FtpSender\FtpWebClient\obj\Debug\FtpWebClient.pdb

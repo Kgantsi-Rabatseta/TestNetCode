@@ -1,0 +1,7 @@
+C:\LocalProjects\TestNetCode\FtpSender\FtpSender\bin\Debug\FtpSender.exe
+C:\LocalProjects\TestNetCode\FtpSender\FtpSender\bin\Debug\FtpSender.pdb
+C:\LocalProjects\TestNetCode\FtpSender\FtpSender\bin\Debug\FtpWebClient.dll
+C:\LocalProjects\TestNetCode\FtpSender\FtpSender\bin\Debug\FtpWebClient.pdb
+C:\LocalProjects\TestNetCode\FtpSender\FtpSender\obj\x86\Debug\FtpSender.csprojResolveAssemblyReference.cache
+C:\LocalProjects\TestNetCode\FtpSender\FtpSender\obj\x86\Debug\FtpSender.exe
+C:\LocalProjects\TestNetCode\FtpSender\FtpSender\obj\x86\Debug\FtpSender.pdb
