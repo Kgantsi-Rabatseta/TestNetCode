@@ -52,7 +52,7 @@ namespace FtpWebClient
             Request.Credentials = FtpWebCredentials;
         }
 
-        public bool CopyFileToFtpFolder(string fileName)
+        public object CopyFileToFtpFolder(string fileName)
         {
             try
             {
@@ -63,7 +63,7 @@ namespace FtpWebClient
             }
             catch(Exception exception)
             {
-                return false;
+                return true;// exception.Message;
             }
         }
 
