@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.Text;
 
 namespace FtpWebClient
 {
@@ -33,7 +30,7 @@ namespace FtpWebClient
             Request.Proxy = null;
         }
 
-        public void SetFtpMethod(String ftpWebMethod )
+        public void SetFtpMethod(String ftpWebMethod)
         {
             Request.Method = ftpWebMethod;
         }
@@ -46,24 +43,27 @@ namespace FtpWebClient
         private void CreateWebRequest()
         {
             Request = null;
-            Request = (FtpWebRequest) WebRequest.Create(new Uri(_ftpAddress));
-            Request.KeepAlive = true;
-            Request.UseBinary = true;
+            Request = (FtpWebRequest)WebRequest.Create(new Uri(_ftpAddress, UriKind.Absolute));
             Request.Credentials = FtpWebCredentials;
+            Request.KeepAlive = true;
+            Request.UsePassive = true;
+            Request.UseBinary = true;
         }
 
         public object CopyFileToFtpFolder(string fileName)
         {
             try
             {
-                var buffer = CreateBuffer(fileName);
-                WriteBytesToFtpFolder(buffer);
+                var filePart = FileIO.CreateFilePart(fileName);
 
-                return true;
+                var buffer = CreateBuffer(filePart);
+                WriteBytesToFtpFolder(buffer);
+                var response = (FtpWebResponse)(Request.GetResponse());
+                return response.StatusDescription;
             }
-            catch(Exception exception)
+            catch (WebException exception)
             {
-                return true;// exception.Message;
+                return ((FtpWebResponse)(exception.Response)).StatusDescription;
             }
         }
 
@@ -93,19 +93,15 @@ namespace FtpWebClient
                 ClearProxy();
                 SetFtpMethod(WebRequestMethods.Ftp.Rename);
                 Request.RenameTo = ftpNewFileName;
-                return true;
+                var response =(FtpWebResponse) (Request.GetResponse());
+                return response.StatusDescription;
             }
             catch (WebException exception)
             {
-                return exception.Response;
+                return ((FtpWebResponse)(exception.Response)).StatusDescription;
             }
-
         }
 
-        public void CopyFileToExtention(string originalfile, string copyTo)
-        {
-            File.Copy(originalfile,copyTo);
-        }
         protected FtpWebRequest Request { get; set; }
         protected NetworkCredential FtpWebCredentials { get; set; }
     }

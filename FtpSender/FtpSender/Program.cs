@@ -12,12 +12,21 @@ namespace FtpSender
     {
         public static void Main(string[] args)
         {
-            InitialiseTest();
-
-            SentToFtp();
+            //InitialiseTest();
+            Console.WriteLine("copying files");
+            CopySharedFiles();
+            //SentToFtp();
             //AddAndRemoveFilePart();
             Console.ReadLine();
         }
+
+        private static void CopySharedFiles()
+        {
+            var mv =  new FileMover();
+            
+            mv.MoveDeploymentFiles();
+        }
+
 
         private static void InitialiseTest()
         {
@@ -49,13 +58,22 @@ namespace FtpSender
         private static void SentToFtp()
         {
             Console.WriteLine("Sending to Ftp");
-            var client = new FtpWebClientConnection(TestData.FtpSite, TestData.FtpUsername, TestData.FtpPassword);
+            var filePart = FileIO.CreateFilePart(TestData.FileName1);
+            var fullFileName = TestData.FtpSite + "/" + filePart;
+            var client = new FtpWebClientConnection(fullFileName, TestData.FtpUsername, TestData.FtpPassword);
             client.SetFtpMethod(WebRequestMethods.Ftp.UploadFile);
             var response = client.CopyFileToFtpFolder(TestData.FileName1).ToString();
-            if(response == true.ToString())
-            Console.WriteLine("Sending to Ftp Complete");
-            else Console.WriteLine("Sending to Ftp Error: \n"+response);
+            if (response.Contains("complete"))
+            {
+                Console.WriteLine("Sending to Ftp :"+response);
+                Console.WriteLine("Remove File: "+ FileIO.RemoveFile(filePart));
+                Console.WriteLine("RenamingFile");
+                var response2 = client.RenameFtpFile(fullFileName, TestData.FileName1);
+                Console.WriteLine("RenamingFile : "+response2);
+            }
+            else Console.WriteLine("Sending to Ftp Error: \n" + (response));
             Console.ReadLine();
+        
             Console.ReadLine();
         }
 
