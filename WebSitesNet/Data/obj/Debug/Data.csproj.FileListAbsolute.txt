@@ -1,0 +1,4 @@
+C:\LocalProjects\TestNetCode\WebSitesNet\Data\bin\Debug\Data.dll
+C:\LocalProjects\TestNetCode\WebSitesNet\Data\bin\Debug\Data.pdb
+C:\LocalProjects\TestNetCode\WebSitesNet\Data\obj\Debug\Data.dll
+C:\LocalProjects\TestNetCode\WebSitesNet\Data\obj\Debug\Data.pdb

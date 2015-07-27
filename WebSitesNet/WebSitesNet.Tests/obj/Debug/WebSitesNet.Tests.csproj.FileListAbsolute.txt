@@ -1,0 +1,8 @@
+C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\bin\Debug\WebSitesNet.Tests.dll.config
+C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\bin\Debug\WebSitesNet.Tests.dll
+C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\bin\Debug\WebSitesNet.Tests.pdb
+C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\bin\Debug\WebSitesNet.dll
+C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\bin\Debug\WebSitesNet.pdb
+C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\obj\Debug\WebSitesNet.Tests.csprojResolveAssemblyReference.cache
+C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\obj\Debug\WebSitesNet.Tests.dll
+C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\obj\Debug\WebSitesNet.Tests.pdb

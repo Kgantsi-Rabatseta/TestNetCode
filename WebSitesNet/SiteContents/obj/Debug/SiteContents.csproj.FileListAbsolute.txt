@@ -1,0 +1,5 @@
+C:\LocalProjects\TestNetCode\WebSitesNet\SiteContents\bin\Debug\SiteContents.dll.config
+C:\LocalProjects\TestNetCode\WebSitesNet\SiteContents\bin\Debug\SiteContents.dll
+C:\LocalProjects\TestNetCode\WebSitesNet\SiteContents\bin\Debug\SiteContents.pdb
+C:\LocalProjects\TestNetCode\WebSitesNet\SiteContents\obj\Debug\SiteContents.dll
+C:\LocalProjects\TestNetCode\WebSitesNet\SiteContents\obj\Debug\SiteContents.pdb
