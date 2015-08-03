@@ -76,12 +76,27 @@ first child of the left and right table columns */
 {
     margin-top: 0;
 }
+/* Table Cells
+____________________________________________
+*/
+td {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5pt;
+}
+th {
+    border-style: solid;
+    border-color: black;
+    border-width: 1pt;
+}
 
 /* PRIMARY LAYOUT ELEMENTS   
 ----------------------------------------------------------*/
 
+
 /* you can specify a greater or lesser percentage for the 
 page width. Or, you can specify an exact pixel width. */
+
 .page
 {
     width: 90%;

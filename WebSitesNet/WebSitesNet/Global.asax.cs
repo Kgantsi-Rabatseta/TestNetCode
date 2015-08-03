@@ -21,6 +21,11 @@ namespace WebSitesNet
                 "{controller}/{action}/{id}", // URL with parameters
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
+            routes.MapRoute("AboutUs", "{controller}/{action}/{id}",
+                            new {controller = "About", action = "About", id = UrlParameter.Optional});
+            
+            routes.MapRoute("MVS", "{controller}/{action}/{id}",
+                            new {controller = "MVS", action = "MVS", id = UrlParameter.Optional});
 
         }
 

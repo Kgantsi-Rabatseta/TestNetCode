@@ -40,6 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Objects\Computer.cs" />
+    <Compile Include="Interfaces\IHasKey.cs" />
+    <Compile Include="Interfaces\IHasKeyAndUser.cs" />
+    <Compile Include="Objects\User.cs" />
+    <Compile Include="Objects\HasKey.cs" />
+    <Compile Include="Objects\HasKeyAndUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

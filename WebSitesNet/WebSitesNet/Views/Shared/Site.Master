@@ -10,7 +10,7 @@
     <div class="page">
         <div id="header">
             <div id="title">
-                <h1 style="font-family:cursive;color: maroon; background: gray ;">Take-U-There</h1>
+                <h1">Take-U-There</h1>
             </div>
               
             <div id="logindisplay">
@@ -20,8 +20,9 @@
             <div id="menucontainer">
             
                 <ul id="menu">              
-                    <li style="color: black ; font-size: 12pt"><%: Html.ActionLink("Home", "Index", "Home")%></li>
-                    <li style="color: black ; font-size: 12pt"><%: Html.ActionLink("About", "About", "Home")%></li>
+                    <li style="color: pink ; font-size: 12pt; font-weight: bold"><%: Html.ActionLink("Home", "Index", "Home")%></li>
+                    <li style="color: green ; font-size: 12pt;font-weight: bold"><%: Html.ActionLink("About", "About", "About")%></li>
+                    <li style="color: blue ; font-size: 12pt; font-weight: bold"><%: Html.ActionLink("Mission \nVision and \nStatement", "Mvs", "Mvs")%></li>
                 </ul>
             
             </div>

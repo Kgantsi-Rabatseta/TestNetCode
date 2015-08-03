@@ -26,17 +26,5 @@ namespace WebSitesNet.Tests.Controllers
             Assert.AreEqual("Welcome to ASP.NET MVC!", viewData["Message"]);
         }
 
-        [TestMethod]
-        public void About()
-        {
-            // Arrange
-            HomeController controller = new HomeController();
-
-            // Act
-            ViewResult result = controller.About() as ViewResult;
-
-            // Assert
-            Assert.IsNotNull(result);
-        }
     }
 }

@@ -2,13 +2,14 @@
 
 namespace WebSitesNet.Controllers
 {
-    [HandleError]
-    public class AboutController : Controller
+    public class AboutController:Controller
     {
+        
         public ActionResult About()
         {
-            return null;
+            ViewData["aboutData"] = "I Love you \nNokuthemba Pertunia Khumalo \nAKA 'Fikie'";
+            ViewData["aboutHeader2"] = "Enjoy Studying and GoodNight";
+            return View();
         }
-
     }
 }

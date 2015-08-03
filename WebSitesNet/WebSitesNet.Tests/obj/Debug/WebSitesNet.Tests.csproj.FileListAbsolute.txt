@@ -6,3 +6,7 @@ C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\bin\Debug\WebSitesNet
 C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\obj\Debug\WebSitesNet.Tests.csprojResolveAssemblyReference.cache
 C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\obj\Debug\WebSitesNet.Tests.dll
 C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\obj\Debug\WebSitesNet.Tests.pdb
+C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\bin\Debug\DataUtilities.dll
+C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\bin\Debug\Data.dll
+C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\bin\Debug\DataUtilities.pdb
+C:\LocalProjects\TestNetCode\WebSitesNet\WebSitesNet.Tests\bin\Debug\Data.pdb

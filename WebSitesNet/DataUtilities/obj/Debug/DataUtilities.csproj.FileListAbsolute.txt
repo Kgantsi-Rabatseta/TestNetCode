@@ -2,3 +2,6 @@ C:\LocalProjects\TestNetCode\WebSitesNet\DataUtilities\bin\Debug\DataUtilities.d
 C:\LocalProjects\TestNetCode\WebSitesNet\DataUtilities\bin\Debug\DataUtilities.pdb
 C:\LocalProjects\TestNetCode\WebSitesNet\DataUtilities\obj\Debug\DataUtilities.dll
 C:\LocalProjects\TestNetCode\WebSitesNet\DataUtilities\obj\Debug\DataUtilities.pdb
+C:\LocalProjects\TestNetCode\WebSitesNet\DataUtilities\bin\Debug\Data.dll
+C:\LocalProjects\TestNetCode\WebSitesNet\DataUtilities\bin\Debug\Data.pdb
+C:\LocalProjects\TestNetCode\WebSitesNet\DataUtilities\obj\Debug\DataUtilities.csprojResolveAssemblyReference.cache
