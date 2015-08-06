@@ -1,0 +1,4 @@
+C:\LocalProjects\TestNetCode\theworks.co.za\theworks.co.za\bin\theworks.co.za.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\theworks.co.za\bin\theworks.co.za.pdb
+C:\LocalProjects\TestNetCode\theworks.co.za\theworks.co.za\obj\Debug\theworks.co.za.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\theworks.co.za\obj\Debug\theworks.co.za.pdb
