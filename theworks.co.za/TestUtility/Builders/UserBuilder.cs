@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Data.Model.UserKey;
 
 namespace TestUtility.Builders
@@ -14,9 +12,9 @@ namespace TestUtility.Builders
             _userNumber = userNumber;
         }
 
-        public static IList<User> BuildUsers(int numberOfUsers)
+        public static IList<UserModel> BuildUsers(int numberOfUsers)
         {
-            var usersList = new List<User>();
+            var usersList = new List<UserModel>();
             for (var i = 1; i <= numberOfUsers; )
             {
                 usersList.Add(BuildAUser(i++));
@@ -24,14 +22,14 @@ namespace TestUtility.Builders
             return usersList;
         }
 
-        public static User BuildAUser(int userNmuber)
+        public static UserModel BuildAUser(int userNmuber)
         {
             return new UserBuilder(userNmuber).Build();
         }
 
-        private User Build()
+        private UserModel Build()
         {
-            return new User
+            return new UserModel
                 {
                     UserName = "UserName_"+_userNumber,
                     FirstName = "firstName_"+_userNumber,

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Data.Model.User;
+using Data.Model.UserKey;
 using NHibernate;
 using NHibernate.Cfg;
 using Environment = NHibernate.Cfg.Environment;
@@ -22,7 +22,7 @@ namespace Data
                     var configuration = new Configuration();
                     try
                     {
-                        configuration.Configure(System.Environment.SpecialFolder.ProgramFilesX86+@"\ProgramSettings\DataBaseProperties.cfg.xml");
+                        configuration.Configure(System.Environment.SpecialFolder.ProgramFiles+@"\ProgramSettings\DataBaseProperties.cfg.xml");
                     }
                     catch (Exception)
                     {
@@ -32,7 +32,7 @@ namespace Data
                     {
                         configuration.SetProperty(Environment.ConnectionString, ConnectionString);
                     }
-                    configuration.AddAssembly(typeof(User).Assembly);
+                    configuration.AddAssembly(typeof(UserModel).Assembly);
                     _sessionFactory = configuration.BuildSessionFactory();
                 }
                 return _sessionFactory;

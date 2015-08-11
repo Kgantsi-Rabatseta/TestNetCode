@@ -12,5 +12,8 @@ namespace Data.Model
         {
             return Key.Equals(Guid.Empty);
         }
+
+        public int Version { get; set; }
+        public DateTime DateInserted { get; set; }
     }
 }

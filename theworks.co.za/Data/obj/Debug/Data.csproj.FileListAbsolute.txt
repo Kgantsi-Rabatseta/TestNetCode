@@ -1,0 +1,11 @@
+C:\LocalProjects\TestNetCode\theworks.co.za\Data\bin\Debug\Data.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\Data\bin\Debug\Data.pdb
+C:\LocalProjects\TestNetCode\theworks.co.za\Data\bin\Debug\Iesi.Collections.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\Data\bin\Debug\Newtonsoft.Json.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\Data\bin\Debug\NHibernate.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\Data\bin\Debug\Iesi.Collections.xml
+C:\LocalProjects\TestNetCode\theworks.co.za\Data\bin\Debug\Newtonsoft.Json.xml
+C:\LocalProjects\TestNetCode\theworks.co.za\Data\bin\Debug\NHibernate.xml
+C:\LocalProjects\TestNetCode\theworks.co.za\Data\obj\Debug\Data.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\Data\obj\Debug\Data.pdb
+C:\LocalProjects\TestNetCode\theworks.co.za\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache

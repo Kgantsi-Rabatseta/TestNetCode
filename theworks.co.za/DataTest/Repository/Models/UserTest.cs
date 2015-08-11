@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Text;
 using Data.Model.UserKey;
 using Data.Repository;
 using NHibernate.Tool.hbm2ddl;
@@ -14,7 +13,7 @@ namespace DataTest.Repository.Models
     class UserTest:RepositoryTest
     {
         private const int UserNmuber = 456;
-        private IList<User> _users;
+        private IList<UserModel> _users;
         private UserKeyRepository _repository;
 
         public override void SetupContect()
@@ -48,6 +47,14 @@ namespace DataTest.Repository.Models
                 Assert.AreEqual(userFromDb.UserName, newUser.UserName);
                 Assert.AreEqual(userFromDb.Password,newUser.Password);
             }
+        }
+
+        [Test]
+        public void GetById()
+        {
+            var user = _users.First();
+            var userFromDb = _repository.GetByKey(SessionFactory.OpenSession(),user.Key);
+            Assert.AreEqual(user.Key,userFromDb.Key);
         }
     }
 }

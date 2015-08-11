@@ -6,7 +6,7 @@ using Data.Model.UserKey;
 
 namespace Data.Repository
 {
-    public class UserKeyRepository:Repository<User>
+    public class UserKeyRepository:Repository<UserModel>
     {
     }
 }

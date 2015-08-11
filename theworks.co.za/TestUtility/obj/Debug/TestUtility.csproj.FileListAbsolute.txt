@@ -1,0 +1,11 @@
+C:\LocalProjects\TestNetCode\theworks.co.za\TestUtility\bin\Debug\TestUtility.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\TestUtility\bin\Debug\TestUtility.pdb
+C:\LocalProjects\TestNetCode\theworks.co.za\TestUtility\bin\Debug\Data.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\TestUtility\bin\Debug\NHibernate.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\TestUtility\bin\Debug\Iesi.Collections.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\TestUtility\bin\Debug\Data.pdb
+C:\LocalProjects\TestNetCode\theworks.co.za\TestUtility\bin\Debug\NHibernate.xml
+C:\LocalProjects\TestNetCode\theworks.co.za\TestUtility\bin\Debug\Iesi.Collections.xml
+C:\LocalProjects\TestNetCode\theworks.co.za\TestUtility\obj\Debug\TestUtility.csprojResolveAssemblyReference.cache
+C:\LocalProjects\TestNetCode\theworks.co.za\TestUtility\obj\Debug\TestUtility.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\TestUtility\obj\Debug\TestUtility.pdb

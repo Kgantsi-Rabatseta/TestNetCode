@@ -33,7 +33,7 @@ namespace Data.Repository
             return GetByKey(session, entity.Key);
         }
 
-        private T GetByKey(ISession session, Guid key)
+        public T GetByKey(ISession session, Guid key)
         {
             return session.Get<T>(key);
         }

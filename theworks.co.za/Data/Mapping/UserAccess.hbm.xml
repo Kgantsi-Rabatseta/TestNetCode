@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Data"
+                   namespace="G4S.Deposita.COPS.Data.Domain">
+  <class name="UserAccess" table="WORKS_UserAccess">
+    <id name="Key">
+      <generator class="guid.comb" />
+    </id>
+    <version name="Version" />
+    <property name="DateInserted" not-null="false" />
+    <property name="UserRole"/>
+  </class>
+</hibernate-mapping>

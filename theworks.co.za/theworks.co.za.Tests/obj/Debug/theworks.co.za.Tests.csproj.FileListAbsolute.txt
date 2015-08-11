@@ -1,1 +1,8 @@
+C:\LocalProjects\TestNetCode\theworks.co.za\theworks.co.za.Tests\bin\Debug\theworks.co.za.Tests.dll.config
+C:\LocalProjects\TestNetCode\theworks.co.za\theworks.co.za.Tests\bin\Debug\theworks.co.za.Tests.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\theworks.co.za.Tests\bin\Debug\theworks.co.za.Tests.pdb
+C:\LocalProjects\TestNetCode\theworks.co.za\theworks.co.za.Tests\bin\Debug\theworks.co.za.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\theworks.co.za.Tests\bin\Debug\theworks.co.za.pdb
 C:\LocalProjects\TestNetCode\theworks.co.za\theworks.co.za.Tests\obj\Debug\theworks.co.za.Tests.csprojResolveAssemblyReference.cache
+C:\LocalProjects\TestNetCode\theworks.co.za\theworks.co.za.Tests\obj\Debug\theworks.co.za.Tests.dll
+C:\LocalProjects\TestNetCode\theworks.co.za\theworks.co.za.Tests\obj\Debug\theworks.co.za.Tests.pdb
